@@ -1,0 +1,101 @@
+
+#body{
+    background-color: black;
+}
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    /*to make the height and width responsive*/
+    width: 40vw;
+    background: url("newclock.png") no-repeat;
+    /*setting our background image*/
+    background-size: 100%;
+}
+ 
+#hour,
+#minute,
+#second
+{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+ 
+#hour {
+    width: 1.8%;
+    height: 25%;
+    background-color: red;
+    top: 25%;
+    left: 50%;
+    opacity: 0.8;
+}
+ 
+#minute {
+    width: 1.6%;
+    height: 30%;
+    background-color: blue;
+    top: 19%;
+    left: 50%;
+    opacity: 0.8;
+}
+ 
+#second {
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 50%;
+    opacity: 0.8;
+    background-color: purple;
+}
+#center{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    width:3%;
+    height:3%;
+    background-color: black;
+    opacity:1;
+    left: 48.9%;
+    top: 48%;
+}
+#button{
+    position: relative;
+    text-align: center;
+    padding:75px;
+    
+}
+#b1,
+#b2,
+#b3{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #353307;
+    cursor: pointer;
+    border: 3px solid;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,5px 0px;
+    position: relative;
+    touch-action: manipulation;
+    min-width: 100px;
+    padding: 10px;
+    background-color: #e6da9f;
+    border-radius: 8px;
+    font-weight: 500;
+}
+#b1:hover{
+    background-color:white;
+    color: rgb(180, 57, 57);
+}
+#b2:hover{
+    opacity:1%;
+    background-color:white;
+    color: rgb(180, 57, 57);
+}
+#b3:hover{
+    background-color:white;
+    color: rgb(180, 57, 57);
+}
